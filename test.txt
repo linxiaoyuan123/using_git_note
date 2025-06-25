@@ -41,7 +41,16 @@ VSCODE自带git的所有基本操作，高级功能可以安装一个git history
 12.若想回退某个版本，则git log，复制那个版本的commit的id
 git reset --hard 版本id(右键复制)
 
-13.若想在不同版本中切换，可以用创建分支（分支就是将当前版本复制一份）
+13.若想在不同版本中切换，可以用创建分支（分支就是将当前版本复制一份）————>主要用于团队协作
+创建分支：
+git branch 分支名
+切换分支：
+git checkout 分支名
+合并分支：
+git merge 分支名
+删除分支：
+git branch -d 分支名
+
 
 
 
