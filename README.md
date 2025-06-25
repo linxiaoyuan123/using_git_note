@@ -65,7 +65,14 @@ git的团队协作需要一个服务器，搭建一个git仓库服（服务器�
 15.添加远程仓库地址
 git remote add origin https://github.com/linxiaoyuan123/using_git_note.git
 
+16.git branch -M main
+创建一个main分支，并把主分支创建为main
 
+17.git push -u origin main
+push推送上传到github
+-u 把本地分支和远程分支关联起来，以后提交只需要git push
+origin 远程仓库别名
+main要推送的本地分支名
 
 
 
