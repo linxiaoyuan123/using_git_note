@@ -1,0 +1,31 @@
+git和github基本用法
+
+wd
+显示当前终端所在的会话位置
+
+ls
+显示当前目录下的所有文件
+
+cd
+切换路径
+
+git version
+git版本号
+
+git config --global user.name "用户名"
+设置用户名
+
+git config --global user.email "邮箱"
+设置邮箱
+
+git add test.txt
+添加文件到暂存区
+
+git commit
+
+git commit -m "注释"
+将暂存区文件提交到本地仓库
+
+
+
+
