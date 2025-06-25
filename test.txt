@@ -22,6 +22,7 @@ git add test.txt
 添加文件到暂存区
 
 git commit
+会进入vim编辑器，输入a或者i进入编辑模式，然后输入注释，按esc键退出编辑模式，输入:wq保存并退出
 
 git commit -m "注释"
 将暂存区文件提交到本地仓库
