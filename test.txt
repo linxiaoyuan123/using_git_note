@@ -27,6 +27,6 @@ git commit
 git commit -m "注释"
 将暂存区文件提交到本地仓库
 
-
+提交文件说明要规范
 
 
