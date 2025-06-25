@@ -38,7 +38,10 @@ VSCODE自带git的所有基本操作，高级功能可以安装一个git history
 
 具体其他功能查菜鸟
 
-12.若想回退某个版本，则git log，复制那个版本的commit的id，然后git reset --hard 版本id(右键复制)
+12.若想回退某个版本，则git log，复制那个版本的commit的id
+git reset --hard 版本id(右键复制)
+
+13.若想在不同版本中切换，可以用创建分支（分支就是将当前版本复制一份）
 
 
 
