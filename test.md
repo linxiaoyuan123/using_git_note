@@ -62,6 +62,11 @@ git的团队协作需要一个服务器，搭建一个git仓库服（服务器�
 14.git init
 初始化仓库，在当前目录下创建一个.git隐藏文件，这个文件就是仓库文件
 
+15.添加远程仓库地址
+git remote add origin https://github.com/linxiaoyuan123/using_git_note.git
+
+
+
 
 
 
