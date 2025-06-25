@@ -28,5 +28,11 @@ git commit -m "注释"
 将暂存区文件提交到本地仓库
 
 提交文件说明要规范
+ep:git commit -m "fix(test):change content"
+fix修复（修复的文件或模块）:"修改的内容"
+
+VSCODE有自带的界面版git操作
+
+
 
 
