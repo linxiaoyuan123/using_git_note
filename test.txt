@@ -1,37 +1,44 @@
 git和github基本用法
 
-wd
+1.wd
 显示当前终端所在的会话位置
 
-ls
+2.ls
 显示当前目录下的所有文件
 
-cd
+3.cd
 切换路径
 
-git version
+4.git version
 git版本号
 
-git config --global user.name "用户名"
+5.git config --global user.name "用户名"
 设置用户名
 
-git config --global user.email "邮箱"
+6.git config --global user.email "邮箱"
 设置邮箱
 
-git add test.txt
+7.git add test.txt
 添加文件到暂存区
 
-git commit
+8.git commit
 会进入vim编辑器，输入a或者i进入编辑模式，然后输入注释，按esc键退出编辑模式，输入:wq保存并退出
 
-git commit -m "注释"
+9.git commit -m "注释"
 将暂存区文件提交到本地仓库
 
-提交文件说明要规范
+10.提交文件说明要规范
 ep:git commit -m "fix(test):change content"
 fix修复（修复的文件或模块）:"修改的内容"
 
-VSCODE有自带的界面版git操作
+11.VSCODE有自带的界面版git操作
+步骤：点源代码管理->可以看到暂存区和已修改文件->点左上角的确认按钮->点提交->输入提交信息
+
+VSCODE自带git的所有基本操作，高级功能可以安装一个git history diff插件
+
+具体其他功能查菜鸟
+
+12.若想回退某个版本，则git log，复制那个版本的commit的id，然后git reset --hard 版本id(右键复制)
 
 
 
